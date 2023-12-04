@@ -1,0 +1,59 @@
+#employee-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.employee-box {
+  border: 1px solid #000;
+  background-color: seashell;
+  color: black;
+  margin: 10px;
+  padding: 15px;
+  max-width: 200px; 
+  width: calc(33.33% - 20px); 
+  box-sizing: border-box; 
+  text-align: center;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.employee-box p {
+  color: #000;
+}
+
+.actions button {
+  background-color: darkgreen;
+  color: white;
+  border: 1px solid #006400;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.actions button:hover {
+  background-color: lightgreen;
+}
+
+#emplist button {
+  background-color: #ff8c00;
+  color: white;
+  border: 1px solid #b26900;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#emplist button:hover {
+  background-color: #ffa54f;
+}
+
+h1 {
+  color: white;
+  background-color: #2f4f4f;
+  padding: 10px;
+  text-align: center;
+}
+

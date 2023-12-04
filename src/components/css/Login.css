@@ -1,0 +1,95 @@
+.button {
+    background-color: #ff8c00;
+    color: white;
+    border: 1px solid #b26900;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #ffa54f;
+  }
+  
+  .errorMessage {
+    color: red;
+  }
+  
+  /* Login Page */
+  .login-container {
+    background-color:honeydew;
+    padding: 20px;
+  }
+  
+  .login-form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .login-form label {
+    display: block;
+  }
+  
+  .login-form input,
+  .login-form button {
+    width: 80%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .login-form button {
+    margin-top: 10px;
+    background-color: midnightblue;
+    color: whitesmoke;
+    
+  }
+
+  .login-form button:hover {
+    background-color: lightblue;
+  }
+  
+  .logout-container {
+    background-color: honeydew;
+    padding: 20px;
+  }
+  
+  
+  .signup-container {
+    background-color: honeydew;
+    padding: 20px;
+  }
+  
+  .signup-form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .signup-form label {
+    display: block;
+  }
+  
+  .signup-form input,
+  .signup-form button {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .signup-form button {
+    margin-top: 10px;
+    background-color: midnightblue;
+    color: whitesmoke;
+    
+  }
+
+  .signup-form button:hover {
+    background-color:lightblue;
+  }
+  
+  .signup-form button {
+    margin-top: 10px;
+  }
+
+  .logout-container p {
+    color: black;
+  }
+  
