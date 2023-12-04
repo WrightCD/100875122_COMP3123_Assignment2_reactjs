@@ -34,8 +34,12 @@ This is a simple Employee management system designed to add, update, and delete 
 ### Installation
 
 1. Clone both this and the backend to your local machine
-2. Run npm start for the backend on terminal. 
-3. Run nmpm start for the front end on terminal.
+2. Run npm install for both apps to ensure all dependencies are added
+3. Run npm start for the backend on terminal. 
+4. Run npm start for the front end on terminal.
+5. Alternatively you could run the front end via docker by building from the Dockerfile in assignment2_reactjs and running the container. 
+
+NOTE: You must be in the correct folder when running npm commands
 
 ### Usage
 - Login: To login you simply enter a valid username and password. In case of failed login you will be told the issue ie wrong password
